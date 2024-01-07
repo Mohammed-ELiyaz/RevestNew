@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BreedDetailsActivity">
+
+<!--    android:layout_alignParentStart="true"-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="8dp"
+        android:text="@string/indetailbreedtitle"
+        android:id="@+id/breedtitle"
+        android:textColor="@color/black"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="8dp"
+        android:text="@string/textviewsample"
+        android:id="@+id/breed_details_text_view"
+        android:textColor="@color/white"
+        android:background="@color/listbg"
+        android:gravity="center"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@+id/breedtitle"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_margin="8dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/selection_band_overlay"
+        android:scaleType="centerCrop"
+        android:id="@+id/breed_image_view"
+        tools:ignore="ContentDescription,MissingConstraints"
+        android:layout_below="@+id/breed_details_text_view"
+
+        />
+
+</RelativeLayout>

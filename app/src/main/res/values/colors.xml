@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="listbg">#2196F3</color>
+
+    <color name="colorPrimary">#F2F6FA</color>
+    <color name="colorPrimaryDark">#F8FAFB</color>
+    <color name="colorAccent">#F9FBFD</color>
+
+    <color name="listitemtxt">#0870C3</color>
+    <color name="listitembg">#C0C0C1</color>
+
+
+</resources>
